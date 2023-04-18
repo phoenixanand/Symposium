@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>ELECTROSPITZER</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d6d522ccd0.js" crossorigin="anonymous"></script>
+        </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#tech">Technical event</a></li>
+                        <li><a href="#nontech">Non Technical event</a></li>
+                        <li><a href="#Workshop">Workshops</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Electrospitzer</p>
+                    <h1>Regional Level Symposium</h1>
+                    <a href="https://forms.gle/mprqq2TsfoaAAMpA8">
+                    <i></i><i></i>
+                    <span>Register Now</span></a>
+                    <script>
+                        let btn = document.querySelector('a');
+                        btn.addEventListener('mousemove', e => {
+                            let rect = e.target.getBoundingClientRect();
+                            let x = e.clientX * 3 - rect.left;
+                            btn.style.setProperty('--x', x + 'deg');
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+   
+        <div id="about" class="about">
+            <div class="container">
+            <h1 class="sub-title">About Us</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="images/ece.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Interesting part...</h3>
+                    <p>ELECTROSPITZER 2k23 Is One Of The Most Awaited And Prestigious Event Of The Department Of Electronics And Communication Engineering In Anna University Regional Campus, Tirunelveli.
+                        The Main Objective is to Bring Students Together From Different Colleges Across Regional Level To Share The Knowledge.</p>
+                   
+                    <p> ALL of us do not have equal talent. But ,all of us have an equal opportunity to develop our talents- Dr.A.P.J Abdul kalam.
+                        Inspired by the above beautiful quote, ELECTROSPITZER provides you the golden opportunity to showcase your talents in various technical and non-technical events. It will be an all inclusive package for learning, fun and much more awaits ! we look forward to see you!
+                    </p>
+                    <p> <span>Registration Ends By April 24th, 2023 4:00 PM. Registration Fee Is ₹150.</span></p>
+                    <p> <span>Participants Attending Workshop Have To Pay An Additional Fee Of ₹50 </span></p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="tech">
+            <div class="container">
+                <h1 class="sub-title">Technical Events</h1>
+               
+                <div class="Technicalevent">
+                <div class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="images/paper.jpg">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h2>PAPYRUS</h2>
+                                <p>Paper Presentation event aims to enhance collaborative research by providing national and international students an opportunity to present their views on diverse fields of Engineering and Technology.</p>
+                                <h4>Rules</h4>
+                                <p>1. A team can comprise 2 to 3 members.</p>
+                                <p>2. The topics should be selected given below.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="images/processor.jpg">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h2>TECH X-PO</h2>
+                                <p>"Knock Your Brain For Innovation Thoughts!!!"</p>
+                                <p>This Is An Technical Event In Which The Participants Should Present Their Project Ideas.</p>
+
+                                <h4>Rules</h4>
+                                <p>1. Each Team Can Have A Maximum Of 1-2 Members.</p>
+                                <p>2. Any Student From Any Discipline Can Submit Their Project Ideas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="images/Quiz.png">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h2>TECH BUZZ</h2>
+                                
+                                <p>See how much you know! Tech Buzz is a quiz event  which comprises of technical questions. The event is for individual participant. The event comprises of 2 rounds.
+                                </p>
+
+                                <h4>Rules</h4>
+                                <p>1. 1st round Comprises Of Pen & Paper Round</p>
+                                <p>2. In Round-2, there will be Lock out buzzer system</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="imgbx">
+                            <img src="images/desim.webp">
+                        </div>
+                        <div class="contentbx">
+                            <div>
+                                <h2>DE_SIM</h2>
+                                <p>Are You A Patron Of Circuits?</p>
+                                <p>Questions Will Be Based On 'Electronics & Circuit Fundamentals'</p>
+
+                                <h4>Rules</h4>
+                                <p>1. The 1st round Comprises Of Pen & Paper Round And 2nd round is Circuit Debugging.</p>
+                                <p>2. Individual Participants.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <div id="nontech">
+            <div class="container">
+                <h1 class="sub-title">Non Technical Events</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/secret stash.png">
+                        <div class="layer">
+                            <h3>SECRET CACHE</h3>
+                            <p>Alert..!! To all the Pirates out there !</p>
+                            <p>An invitation for the biggest treasure hunt ,Grab your mates and join the event.</p>
+                               <h4>Even description:</h4>
+                            <p>This is an non-technical event, the idea of finding treasure has always been exciting and fun.The participants work in a small team and find the treasure with the help of the given clues.</p>
+                                <h4>Guidelines and rules:</h4>
+                                 <p>
+                                1. Each team should consist of three participants.</p>
+                               <p> 2.Clues of the treasure will be placed inside the campus. </p>
+                            
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/lumosity.png">
+                        <div class="layer">
+                            <h3>LUMOSITY</h3>
+                            <p>"Open your eyes, look at screen & sharpen your brain."  
+                            </p>
+                            <p>This is non-Technical & brainy event, To check your memory or increase your memory power with this Exciting Game. A Slide of pictures will be presented and the participants should write the pictures what they have seen in correct order.
+                            </p>
+                            <h4>Guidelines and rules:</h4>
+                            <p>1. Two Members can participate in one team.</p>
+                            <p>2. Candidates who clear the pen and paper round will Be participating in a buzzer round.</p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Workshop">
+            <div class="container">
+                <h1 class="sub-title">Workshop</h1>
+            </div>
+
+            <div class="cont">
+                <section class="work">
+                    <div class="work-image">
+                        <img src="images/workshop.jpeg" >
+                    </div>
+                    <div class="work-content">
+                        <h1>Cloud Computing and Mobile Technology</h1>
+                        <p>The senior solutions Architect from Inspection Depot Inc -Florida is going to take a lecture on "Cloud computing and Mobile technology. "
+                        </p>
+                        <p>In the workshop ,you will learn about the cloud computing and its services which includes databases, software and networking. </p>
+                        <p>And about Mobile Technology and its types which are  Cloud-based services that are cheaper than using any of the systems Technology.</p>
+                        <a href="https://forms.gle/mprqq2TsfoaAAMpA8" class="read-more">Register Now</a>
+                    </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="sub-title"> Paper Presentation topics</h1>
+
+            <p class="mus">Papers are invited for the following topics but are not limited to the below topics</p>
+        
+        <div class="work-list">
+            <div class="work">
+                
+                <div class="layer">
+                
+                <ul>
+                    <li> <i class="fa-thin fa-rocket"></i> Bio Medical Image Processing</li>
+                    <li> <i class="fa-thin fa-rocket"></i> Embedded Wireless System</li>
+                    <li> <i class="fa-thin fa-rocket"></i> Optical Communication and Networks</li>
+                    <li> <i class="fa-thin fa-rocket"></i> Wireless Sensor Networks</li>
+                </ul>
+                    
+                </div>
+            </div>
+            <div class="work">
+                
+                <div class="layer">
+                    
+                    <ul>
+                        <li> <i class="fa-thin fa-rocket"></i> Mobile and Optical Communication</li>
+                        <li> <i class="fa-thin fa-rocket"></i> RF Circuit Design</li>
+                        <li> <i class="fa-thin fa-rocket"></i> Internet of Things and Security</li>
+                        <li> <i class="fa-thin fa-rocket"></i> Wireless Communication</li>
+                    </ul>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="contact">
+    <h1 class="sub-title">Contact</h1>
+</div>
+
+
+       
+
+
+
+    </div>
+
+
+
+
+
+
+    
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tabs");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tabs");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <footer class="footer">
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+                <div class="footercontainer">
+                    <div class="row">
+                        <div class="footer__col">
+                            <h4>Contact</h4>
+                                <ul>
+                                    <li><i class="fa-solid fa-phone"></i><a href="tel">+91 9095115614</a></li>
+                                    <li><i class="fa-solid fa-phone"></i><a href="tel">+91 8838699843</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="footer__col">
+                                <h4>Schedule</h4>
+                                <ul>
+                                    <li><a href="#">Inauguration : 9:30am - 10:30am </a></li>
+                                    <li><a href="#">Tech Events & Workshop : 10:30am - 12:00pm  </a></li>
+                                    <li><a href="#">Non-Tech Events : 12:00pm - 1:30pm </a></li>
+                                    <li><a href="#">Lunch Break : 1:30pm - 2:30pm </a></li>
+                                    <li><a href="#">Fun Events : 2:30pm - 3:30pm </a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__col">
+                                <h4>Register Fast</h4>
+                                <ul>
+                                    <li><a href="#"><i class="fa-duotone fa-calendar-days"></i> Save The Date - 25th April 2023, 9:30AM IST Onwards.</a></li>
+                                    <li><a href="#"><i class="fa-sharp fa-solid fa-location-pin"></i> Venue - Anna University Regional Campus Tirunelveli</a></li>
+                                    <li><a href="#"><i class="fa-thin fa-pot-food"></i> Food And Refreshment Will Be Provided For Registered Candidates</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__col">
+                                <h4>Follow Us</h4>
+                                <ul class="social-links">
+                                    <li><a href="https://instagram.com/electrospitzer?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="mailto:electrospitzer2023@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__down">
+                        <span>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. 2023 © AURCT </span>
+                    </div>
+                </footer>
+        
+    </body>
+</html>
